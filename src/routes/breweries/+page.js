@@ -1,3 +1,4 @@
+// @ts-ignore
 export async function load({ fetch }) {
     const brewRes = await fetch(`https://api.openbrewerydb.org/breweries/random?size=50`)
     const brews = await brewRes.json()

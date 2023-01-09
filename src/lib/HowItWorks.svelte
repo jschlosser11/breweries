@@ -55,7 +55,7 @@
 
 <div class="py-16 mx-auto md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-20">
     <div>
-        <h1 class="text-red-900 uppercase text-4xl mb-16 mt-12 underline flex justify-center">Brewing Proccess</h1>
+        <h1 class="text-red-900 uppercase text-6xl mb-16 mt-12  flex justify-center font-bebas tracking-wider">Brewing Proccess</h1>
     </div>
     <div class="grid gap-6 row-gap-10 grid-cols-1">
         {#each brewSteps as steps}
@@ -66,7 +66,7 @@
                 </div>
                 <div class="lg:flex block lg:border-2 lg:border-red-900">
                     <div class="lg:w-1/2 lg:p-8 lg:pb-4 pb-6 px-4 ">
-                        <p class="mb-2 text-xl font-bold">Step: {steps.step} - <span class="text-red-900">{steps.title}</span></p>
+                        <p class="mb-2 text-2xl tracking-wide font-bold font-bebas">Step: {steps.step} - <span class="text-red-900">{steps.title}</span></p>
                         <p class="text-gray-700">{steps.text}</p>
                     </div>
                     <div class="md:pt-0  lg:border-none border-b-2 border-red-900 flex justify-center">

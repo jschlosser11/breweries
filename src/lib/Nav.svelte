@@ -1,4 +1,4 @@
-
+<!-- 
 <nav class="h-24 bg-red-900 flex justify-between">
     <div class="flex pl-6 h-full items-center">
         <a href="/"><h1 class="text-white text-5xl">He Brews</h1></a>
@@ -10,4 +10,4 @@
         </ul>
     </div>
 </nav>
-
+ -->

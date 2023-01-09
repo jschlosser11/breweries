@@ -4,12 +4,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mainHero': "url('/img/mainHero.jpeg')",
-        'tapsHero': "url('/images/beerTaps.webp')",
+        // 'mainHero': "url('/img/mainHero.jpeg')",
+        // 'tapsHero': "url('/images/beerTaps.webp')",
       },
       colors: {
         'cream': '#FFFDD0',
       },
+      fontFamily: {
+        'bebas': ['Bebas Neue']
+      }
     }
   },
   plugins: [require("daisyui")],
